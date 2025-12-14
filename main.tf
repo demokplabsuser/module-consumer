@@ -13,5 +13,5 @@ module "private-module" {
 }
 
 output "final_pet_name" {
-  value = module.my_pet.id
+  value = module.private-module
 }
